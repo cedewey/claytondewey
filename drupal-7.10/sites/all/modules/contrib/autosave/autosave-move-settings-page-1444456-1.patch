@@ -1,0 +1,13 @@
+diff --git a/autosave.module b/autosave.module
+index 1693eef..ee35b54 100644
+--- a/autosave.module
++++ b/autosave.module
+@@ -39,7 +39,7 @@ function autosave_menu() {
+     'delivery callback' => 'ajax_deliver',
+   );
+ 
+-  $items['admin/config/autosave'] = array(
++  $items['admin/config/content/autosave'] = array(
+     'title'            => 'Autosave',
+     'description'      => 'Configure autosave settings.',
+     'page callback'    => 'drupal_get_form',
