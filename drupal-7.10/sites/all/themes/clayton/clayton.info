@@ -1,12 +1,13 @@
 
-name = Bartik
-description = A flexible, recolorable theme with many regions.
+name = Clayton
+description = A sub-theme of bartik. 
 package = Core
 base theme = bartik
 version = VERSION
 core = 7.
 
 stylesheets[all][] = css/clayton.css
+stylesheets[all][] = css/colors.css
 
 regions[header] = Header
 regions[help] = Help
